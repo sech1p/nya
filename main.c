@@ -32,7 +32,7 @@ void nyanterpreter(char *code) {
 }
 
 int main(int argc, char *argv[]) {
-  if(argc != 2)
+  if (argc != 2)
   {
     fprintf(stderr, "Usage: %s <file.nya>\n", argv[0]);
     return 1;
